@@ -82,3 +82,51 @@ android_app_import {
 	soc_specific: true,
 }
 
+prebuilt_etc {
+	name: "Gallery2Drm",
+	owner: "timovi",
+	src: "proprietary/vendor/etc/gallery/Gallery2Drm/Gallery2Drm.apk",
+	sub_dir: "gallery/Gallery2Drm",
+	soc_specific: true,
+}
+
+prebuilt_etc {
+	name: "Gallery2Gif",
+	owner: "timovi",
+	src: "proprietary/vendor/etc/gallery/Gallery2Gif/Gallery2Gif.apk",
+	sub_dir: "gallery/Gallery2Gif",
+	soc_specific: true,
+}
+
+prebuilt_etc {
+	name: "Gallery2Pq",
+	owner: "timovi",
+	src: "proprietary/vendor/etc/gallery/Gallery2Pq/Gallery2Pq.apk",
+	sub_dir: "gallery/Gallery2Pq",
+	soc_specific: true,
+}
+
+prebuilt_etc {
+	name: "Gallery2PqTool",
+	owner: "timovi",
+	src: "proprietary/vendor/etc/gallery/Gallery2PqTool/Gallery2PqTool.apk",
+	sub_dir: "gallery/Gallery2PqTool",
+	soc_specific: true,
+}
+
+prebuilt_etc {
+	name: "Gallery2Raw",
+	owner: "timovi",
+	src: "proprietary/vendor/etc/gallery/Gallery2Raw/Gallery2Raw.apk",
+	sub_dir: "gallery/Gallery2Raw",
+	soc_specific: true,
+}
+
+prebuilt_etc {
+	name: "Gallery2Root",
+	owner: "timovi",
+	src: "proprietary/vendor/etc/gallery/Gallery2Root/Gallery2Root.apk",
+	sub_dir: "gallery/Gallery2Root",
+	soc_specific: true,
+}
+

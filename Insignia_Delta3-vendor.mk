@@ -108,12 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/emdlogger_usb_config.prop:$(TARGET_COPY_OUT_VENDOR)/etc/emdlogger_usb_config.prop \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/fstab.mt6580:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6580 \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/gallery/Gallery2Drm/Gallery2Drm.apk:$(TARGET_COPY_OUT_VENDOR)/etc/gallery/Gallery2Drm/Gallery2Drm.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/gallery/Gallery2Gif/Gallery2Gif.apk:$(TARGET_COPY_OUT_VENDOR)/etc/gallery/Gallery2Gif/Gallery2Gif.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/gallery/Gallery2Pq/Gallery2Pq.apk:$(TARGET_COPY_OUT_VENDOR)/etc/gallery/Gallery2Pq/Gallery2Pq.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/gallery/Gallery2PqTool/Gallery2PqTool.apk:$(TARGET_COPY_OUT_VENDOR)/etc/gallery/Gallery2PqTool/Gallery2PqTool.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/gallery/Gallery2Raw/Gallery2Raw.apk:$(TARGET_COPY_OUT_VENDOR)/etc/gallery/Gallery2Raw/Gallery2Raw.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/gallery/Gallery2Root/Gallery2Root.apk:$(TARGET_COPY_OUT_VENDOR)/etc/gallery/Gallery2Root/Gallery2Root.apk \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/init/aee_aedv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv.rc \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/init/android.hardware.audio@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@2.0-service-mediatek.rc \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
@@ -465,3 +459,9 @@ PRODUCT_PACKAGES += \
     MTKThermalManager \
     NlpService \
     SimRecoveryTestTool \
+    Gallery2Drm \
+    Gallery2Gif \
+    Gallery2Pq \
+    Gallery2PqTool \
+    Gallery2Raw \
+    Gallery2Root \
