@@ -89,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/bin/wmt_loopback:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loopback \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/compatibility_matrix.xml \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/data/misc/ProjectConfig.mk:$(TARGET_COPY_OUT_VENDOR)/data/misc/ProjectConfig.mk \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
@@ -450,7 +449,6 @@ PRODUCT_COPY_FILES += \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/lib64/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec.so \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/manifest.xml \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
