@@ -5,3 +5,80 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "AutoDialer",
+	owner: "timovi",
+	apk: "proprietary/vendor/app/AutoDialer/AutoDialer.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "LocationEM2",
+	owner: "timovi",
+	apk: "proprietary/vendor/app/LocationEM2/LocationEM2.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "LPPeService",
+	owner: "timovi",
+	apk: "proprietary/vendor/app/LPPeService/LPPeService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "MTKLoggerProxy",
+	owner: "timovi",
+	apk: "proprietary/vendor/app/MTKLoggerProxy/MTKLoggerProxy.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "MTKThermalManager",
+	owner: "timovi",
+	apk: "proprietary/vendor/app/MTKThermalManager/MTKThermalManager.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "NlpService",
+	owner: "timovi",
+	apk: "proprietary/vendor/app/NlpService/NlpService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "SimRecoveryTestTool",
+	owner: "timovi",
+	apk: "proprietary/vendor/app/SimRecoveryTestTool/SimRecoveryTestTool.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+

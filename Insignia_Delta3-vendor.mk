@@ -26,13 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/timovi/Insignia_Delta3/proprietary/lib/vndk-sp/android.hardware.graphics.mapper@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-sp/android.hardware.graphics.mapper@2.0.so \
     vendor/timovi/Insignia_Delta3/proprietary/lib/vndk-sp/android.hardware.renderscript@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-sp/android.hardware.renderscript@1.0.so \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/[SYS]/Journal:$(TARGET_COPY_OUT_VENDOR)/[SYS]/Journal \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/app/AutoDialer/AutoDialer.apk:$(TARGET_COPY_OUT_VENDOR)/app/AutoDialer/AutoDialer.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/app/LPPeService/LPPeService.apk:$(TARGET_COPY_OUT_VENDOR)/app/LPPeService/LPPeService.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/app/LocationEM2/LocationEM2.apk:$(TARGET_COPY_OUT_VENDOR)/app/LocationEM2/LocationEM2.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/app/MTKLoggerProxy/MTKLoggerProxy.apk:$(TARGET_COPY_OUT_VENDOR)/app/MTKLoggerProxy/MTKLoggerProxy.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/app/MTKThermalManager/MTKThermalManager.apk:$(TARGET_COPY_OUT_VENDOR)/app/MTKThermalManager/MTKThermalManager.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/app/NlpService/NlpService.apk:$(TARGET_COPY_OUT_VENDOR)/app/NlpService/NlpService.apk \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/app/SimRecoveryTestTool/SimRecoveryTestTool.apk:$(TARGET_COPY_OUT_VENDOR)/app/SimRecoveryTestTool/SimRecoveryTestTool.apk \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/app/t6/0799a943-84a2-dead-0e3f8c88ad72507f.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/0799a943-84a2-dead-0e3f8c88ad72507f.ta \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/app/t6/2ea702fa-17bc-4752-b3adb2871a772347.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/2ea702fa-17bc-4752-b3adb2871a772347.ta \
@@ -465,3 +458,12 @@ PRODUCT_COPY_FILES += \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav
+    
+PRODUCT_PACKAGES += \
+    AutoDialer \
+    LocationEM2 \
+    LPPeService \
+    MTKLoggerProxy \
+    MTKThermalManager \
+    NlpService \
+    SimRecoveryTestTool \
