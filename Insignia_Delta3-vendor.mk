@@ -170,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/powercontable.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.cfg \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/powerscntbl.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.cfg \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/security/cacerts_supl/594f1775.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/594f1775.0 \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
